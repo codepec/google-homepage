@@ -1,4 +1,6 @@
-- Searchhbox
+The task is to create a google website (google search).
+
+- Searchbox
 - Icons
 - Buttons
 - Footer
