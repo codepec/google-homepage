@@ -7,6 +7,7 @@ body {
 	border: none;
 	margin: 0;
 	padding: 0;
+    font-family: arial,sans-serif;
     
 }
 
@@ -16,6 +17,7 @@ li{
     list-style: none;
     display: inline-block;
     text-decoration: none;
+    padding: 10px;
 
 
 }
@@ -23,6 +25,8 @@ li{
 a{
     text-decoration: none;
     color: black;
+    font-size: 15px;
+
 }
 
 a:hover{
@@ -93,4 +97,35 @@ a:hover{
     width: 25px;
     color:grey;
     fill: currentColor;
+}
+
+.border-bottom{
+    border-bottom: 1px solid lightgrey;
+}
+
+
+footer{
+    font-size: 15px;
+    color: gray;
+}
+
+a.footer-a{
+    color:gray;
+}
+
+.box-flex{
+    margin-top:30px;
+    text-align: center;
+    display:flex;
+
+}
+
+button{
+    padding:20px;
+    border:1px solid white;
+    border-radius: 15px;
+}
+
+button:hover{
+    border: 1px solid lightgray;
 }
