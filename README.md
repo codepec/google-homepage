@@ -1,0 +1,8 @@
+- Searchhbox
+- Icons
+- Buttons
+- Footer
+- Header (Navbar)
+- Login
+- Links
+- Picture of the Day
