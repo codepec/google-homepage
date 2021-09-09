@@ -13,11 +13,16 @@ body {
 
 /* Navigation */
 
+nav{
+    margin-right: 5px;
+}
+
 li{
     list-style: none;
     display: inline-block;
     text-decoration: none;
     padding: 10px;
+
 
 
 }
@@ -37,11 +42,12 @@ a:hover{
 /* Container Box */
 
 .box {
+  
     display: flex;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
     
-    max-height: 160px;
+
 
 }
 
@@ -49,10 +55,8 @@ a:hover{
 /* Google Logo */
 
 .pictureBox {
-    margin-top: 30px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+   
+   
     min-height: 150px;
     max-height: 290px;
     max-width: 250px;
@@ -105,8 +109,15 @@ a:hover{
 
 
 footer{
+    
+    background-color: rgb(230, 230, 230);
+    text-align: center;
     font-size: 15px;
     color: gray;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
 }
 
 a.footer-a{
@@ -115,8 +126,10 @@ a.footer-a{
 
 .box-flex{
     margin-top:30px;
-    text-align: center;
-    display:flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 
 }
 
@@ -124,8 +137,76 @@ button{
     padding:20px;
     border:1px solid white;
     border-radius: 15px;
+    
 }
 
 button:hover{
     border: 1px solid lightgray;
+}
+
+.buttonHeader {
+    border: 0px solid black;
+    border-radius: 15px;
+    background-color: cornflowerblue;
+}
+
+.buttonHeader:hover {
+    box-shadow: 0px 0px 1px 0px;
+    cursor:pointer;
+}
+
+.symbol {
+    width:25px;
+    fill: grey;
+
+}
+.symbolDiv {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.symbolDiv:hover {
+    
+    border-radius: 20px;
+    background-color: lightgrey;
+    cursor:pointer;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+}
+
+.navLeft {
+    float:left;
+    display: flex;
+    align-items: center;
+    
+}
+
+.navRight {
+    float:right;
+    display: flex;
+    align-items: center;
+   
+    
+    
+}
+
+li {
+    margin: 10px;
+}
+
+.menu {
+    height: 200px;
+}
+
+.mainContent {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
 }
